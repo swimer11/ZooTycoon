@@ -1,3 +1,4 @@
+//contains all the functions and varables that are needed for food
 #ifndef FOOD_H
 #define FOOD_H
 

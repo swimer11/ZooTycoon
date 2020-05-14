@@ -1,7 +1,9 @@
+//this is the function def for the zoo class functions
+//all other .cpp must be run with this for it to work
 #include "zoo.h"
 
 using namespace std;
-
+//constructor for zoo class
 Zoo::Zoo() {
 	//random number to choose, this changes if more then 10 is added then it is 20, 30,.., etc
 	this->maxSlions = 10;
@@ -45,6 +47,7 @@ void Zoo::makezoo() {
 	cout << "\nWell now that all of that is done your remaining balance is: $" << acount.getbalance() << "\n \n";
 }
 
+//this is the flow of the game, all parts of this function are to call a function, cout, or move infromation around in the form of ints
 void Zoo::gameplay() {
 	int choice,
 		mon_num =0; //use to track ther months
@@ -608,7 +611,7 @@ void Zoo::addBear(int numAdded, int age) {
 		}
 	}
 }
-
+//deconstructor
 Zoo::~Zoo() {
 	delete[] Spin;
 	delete[] Bpin;

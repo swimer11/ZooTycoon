@@ -1,3 +1,5 @@
+//this is all the functions and values needed for the money part of the zoo
+//iomanip is only used for displaying the values of the account
 #ifndef BANK_H
 #define BANK_H
 

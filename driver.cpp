@@ -1,3 +1,12 @@
+/******************************************************
+ * ** Program: zoo_tycoon.cpp
+ * ** Author: Tyler Cohade
+ * ** Date: 05/08/2020
+ * ** Description: This is a text based game of Zoo Tycoon, in this game you have to make profit for a zoo that you 
+ * populate with 3 differetn types of animals(sea lions, tigers, bears). This must be run with the 9 other .cpp files for this to work.
+ * ** Input:N/a
+ * ** Output:N/a
+ * ******************************************************/
 #include "zoo.h"
 
 using namespace std;

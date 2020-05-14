@@ -1,3 +1,4 @@
+//this is the zoo class, all other classes come together in this one class
 #ifndef ZOO_H
 #define ZOO_H
 
@@ -27,6 +28,7 @@ private:
 	Bear* Bpin;
 	Tiger* Tpin;
 
+	//classes def.
 	Bank acount;
 	Menu mainMenu;
 
@@ -34,7 +36,7 @@ private:
 	void ageAnimal(Animal*, int, int&, int&, int&); //adds one month to each animal each turn
 	int feedingTime(); //used to feed the animals and get the type of food choosen back 
 	void buyAnimal(); //used to buy up to two animals per month
-	double profits(Animal*, int);
+	double profits(Animal*, int); //used to calc profit
 
 	//random events
 	double randomEvents(int);
@@ -43,7 +45,7 @@ private:
 	void babyBorn();
 	void noevent();
 
-	//adding animals when bought
+	//adding animals when bought or born
 	void addSeaLion(int, int);
 	void addTiger(int, int);
 	void addBear(int, int);
@@ -51,6 +53,7 @@ private:
 public:
 	Zoo();
 	~Zoo();
+
 	bool checkint(int);
 	void gameplay();
 

@@ -1,3 +1,4 @@
+//this is the tiger class for the zoo, only a constructor all other functions are inherited
 #ifndef TIGER_H
 #define TIGER_H
 

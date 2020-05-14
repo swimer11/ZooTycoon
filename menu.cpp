@@ -1,3 +1,4 @@
+//this is the menus that are in the game, there is the starting, animal prices, buying, food type, and continue game menus
 #include "menu.h"
 
 using namespace std;

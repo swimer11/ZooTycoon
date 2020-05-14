@@ -1,3 +1,4 @@
+//function def. for the animal class, needs the food.cpp to run
 #ifndef ANIMAL_H
 #define ANIMAL_H
 

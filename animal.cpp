@@ -1,3 +1,4 @@
+//def. for the animal class functions
 #include "animal.h"
 
 using namespace std;
@@ -68,11 +69,11 @@ void Animal::defineAge(int tmp) {
 void Animal::setage() {
     age++;
 }
-
+//used to get the age of an animal 
 int Animal::getage() {
     return age;
 }
-
+//used to get the cost of an animal
 int Animal::getcost() {
     return animal_cost;
 }

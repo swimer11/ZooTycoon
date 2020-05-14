@@ -1,3 +1,4 @@
+//this is the function def of the bear class
 #include "bear.h"
 
 using namespace std;
